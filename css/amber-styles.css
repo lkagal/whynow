@@ -10970,6 +10970,7 @@ p {
   }
 }
 header.masthead {
+  color: brown;
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -10981,6 +10982,7 @@ header.masthead {
   background-size: cover;
 }
 header.masthead .masthead-subheading {
+  color: brown;
   font-size: 1.5rem;
   font-style: italic;
   line-height: 1.5rem;
@@ -10988,6 +10990,7 @@ header.masthead .masthead-subheading {
   font-family: "Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .masthead-heading {
+  color: saddlebrown;
   font-size: 3.25rem;
   font-weight: 700;
   line-height: 3.25rem;
