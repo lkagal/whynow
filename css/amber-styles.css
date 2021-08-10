@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Agency v7.0.5 (https://startbootstrap.com/theme/agency)
+* Start Bootstrap - Agency v7
+* .0.5 (https://startbootstrap.com/theme/agency)
 * Copyright 2013-2021 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
 */
@@ -10970,7 +10971,7 @@ p {
   }
 }
 header.masthead {
-  color: brown;
+  color: saddlebrown;
   padding-top: 10.5rem;
   padding-bottom: 6rem;
   text-align: center;
@@ -10982,7 +10983,7 @@ header.masthead {
   background-size: cover;
 }
 header.masthead .masthead-subheading {
-  color: brown;
+  color: saddlebrown;
   font-size: 1.5rem;
   font-style: italic;
   line-height: 1.5rem;
