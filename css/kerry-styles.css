@@ -10970,11 +10970,11 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
+  padding-top: 1.5rem;
   padding-bottom: 6rem;
   text-align: center;
-  color: #fff;
-  background-image: url("../womenchains.jpg");
+  color: blueviolet;
+  background-image: url("oldandnew.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11044,7 +11044,7 @@ header.masthead .masthead-heading {
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
   text-align: center;
-  background-color: #fff;
+  background-color: blanchedalmond;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
   font-size: 1.5rem;

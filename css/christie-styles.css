@@ -10974,7 +10974,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("../crossroads.jpg");
+  background-image: url("../paths.jfif");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -11012,7 +11012,17 @@ header.masthead .masthead-heading {
     line-height: 4.5rem;
     margin-bottom: 4rem;
   }
-}
+  header.mission {
+    font-size: 2.25rem;
+    font-weight: 600;
+    text-align: center;
+    font-style: italic;  
+  }
+  p.statement {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: san;
+  }
 #portfolio .portfolio-item {
   max-width: 26rem;
   margin-left: auto;
