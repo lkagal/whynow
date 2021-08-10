@@ -10978,8 +10978,15 @@ header.masthead {
   background-image: url("paths.jfif");
 =======
   color: #fff;
+<<<<<<< Updated upstream:css/#styles.css#
   background-image: url("change2.jpg");
+<<<<<<< HEAD
 >>>>>>> 3a2bad8620f4767be66579cbee47bd8f5323bcb0:css/#styles.css#
+=======
+=======
+  background-image: url("breakfree.jfif");
+>>>>>>> Stashed changes:css/styles.css
+>>>>>>> 6b39536adf519b9333b3b75a75a0b19811ee9d01
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; 
@@ -10988,6 +10995,7 @@ header.masthead {
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
+  font color: saddlebrown;
   font-style: italic;
   line-height: 1.5rem;
   margin-bottom: 25px;
