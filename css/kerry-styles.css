@@ -10927,7 +10927,7 @@ p {
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.95rem;
-  color: #fff;
+  color: black;
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -10953,7 +10953,7 @@ p {
   #mainNav.navbar-shrink {
     padding-top: 1rem;
     padding-bottom: 1rem;
-    background-color: #212529;
+    background-color: black;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
@@ -10973,8 +10973,7 @@ header.masthead {
   padding-top: 1.5rem;
   padding-bottom: 4rem;
   text-align: center;
-  color: blueviolet;
-  background-image: url("oldandnew.jpg");
+  color: darkblue;  background-image: url("oldandnew.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
