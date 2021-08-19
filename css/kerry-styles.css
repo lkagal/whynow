@@ -10915,7 +10915,7 @@ p {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #ffc800;
+  color: aquamarine;
   font-family: "Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   letter-spacing: 0.0625em;
@@ -10931,7 +10931,7 @@ p {
   letter-spacing: 0.0625em;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #ffc800;
+  color: aquamarine;
 }
 
 @media (min-width: 992px) {
@@ -10939,7 +10939,7 @@ p {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
+    background-color: darkgray;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
@@ -11017,11 +11017,13 @@ header.masthead .masthead-heading {
   max-width: 26rem;
   margin-left: auto;
   margin-right: auto;
+  align-items: right;
 }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
   margin: 0 auto;
+  align-items: right;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
   display: flex;
@@ -11043,7 +11045,7 @@ header.masthead .masthead-heading {
 }
 #portfolio .portfolio-item .portfolio-caption {
   padding: 1.5rem;
-  text-align: center;
+  align-content: right;
   background-color: aquamarine;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-heading {
@@ -11051,10 +11053,12 @@ header.masthead .masthead-heading {
   font-family: "Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   margin-bottom: 0;
+  align-content: right;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
   font-family: "Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  align-content: right;
 }
 
 .portfolio-modal .modal-dialog {
@@ -11227,6 +11231,7 @@ header.masthead .masthead-heading {
 @media (min-width: 992px) {
   .timeline > li {
     min-height: 150px;
+    align-content: right;
   }
   .timeline > li .timeline-panel {
     padding: 0 20px 20px;
