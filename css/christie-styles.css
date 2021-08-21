@@ -11031,6 +11031,7 @@ header.masthead.masthead-subheading {
     color: olive;
     text-align: center;
     text-transform: uppercase;
+    padding-bottom: 2rem;
   }
   p.definition {
     font-size: 1.2rem;
@@ -11044,17 +11045,43 @@ header.masthead.masthead-subheading {
     text-align: center;
     color: black;
   }
+
+  img {
+
+  }
+
   p.struggles {
     font-size: 1.2rem;
-    text-align: center;
     font-family: inline block;
     color: orchid;
   }
+  li {
+    font-size: 1.2; 
+    font-family: inline block;
+    font-style: italic;
+    color: black;
+    text-align: left;
+  }
+
+  img {
+
+  }
+
   p.direction {
     font-size: 1.2rem;
     text-align: center;
     font-family: inline block;
     color: orchid;
+  }
+  h5 {
+    color: lightgray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  ul {
+    text-align: center;
+
+
   }
 #portfolio .portfolio-item {
   max-width: 30rem;
