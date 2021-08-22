@@ -5248,6 +5248,7 @@ textarea.form-control-lg {
   overflow-x: hidden;
   overflow-y: auto;
   outline: 0;
+  color: black;
 }
 
 .modal-dialog {
@@ -11003,10 +11004,56 @@ header.masthead .masthead-heading {
     padding-bottom: 15rem;
   }
 header.masthead.masthead-subheading {
-  font-size: 3.0;
+  font-size: 3.0rem;
   font-weight: 800;
   line-height: 2.5rem;
   margin-bottom: 3rem;
+  }
+  header.p {
+    font-size:1.5rem;
+    font-weight: 600;
+    font-family:"Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font: italic;
+    line-height: 2.0rem;
+    margin-top: 1rem;
+    color: lightgray; 
+  }
+  header.a {
+    font-size:1.5rem;
+    font-weight: 600;
+    font-family:"Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font: italic;
+    line-height: 2.0rem;
+    margin-top: 1rem;
+    color: lightgray; 
+
+  }
+  header.t {
+    font-size:1.5rem;
+    font-weight: 600;
+    font-family:"Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font: italic;
+    line-height: 2.0rem;
+    margin-top: 1rem;
+    color: lightgray; 
+  }
+  header.h {
+    font-size:1.5rem;
+    font-weight: 600;
+    font-family:"Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font: italic;
+    line-height: 2.0rem;
+    margin-top: 1rem;
+    color: lightgray; 
+  }
+  header.s {
+    font-size:1.5rem;
+    font-weight: 600;
+    font-family:"Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font: italic;
+    line-height: 2.0rem;
+    margin-top: 1rem; 
+    color: lightgray;
   }
   header.mission {
     font-size: 3.5rem;
@@ -11031,25 +11078,24 @@ header.masthead.masthead-subheading {
     color: olive;
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: 2rem;
+    padding-bottom: rem;
   }
   p.definition {
     font-size: 1.2rem;
     text-align: center;
     font-family: inline block;
     color: lightgray;
+    padding-bottom: 8rem;
   }
+  
   h4 {
     font-size: 5.0;
     font-family: sans-serif;
     text-align: center;
     color: black;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
   }
-
-  img {
-
-  }
-
   p.struggles {
     font-size: 1.2rem;
     font-family: inline block;
@@ -11057,37 +11103,31 @@ header.masthead.masthead-subheading {
   }
   li {
     font-size: 1.2; 
-    font-family: inline block;
-    font-style: italic;
+    font-family: san;
+    font-style: ;
     color: black;
     text-align: left;
   }
-
-  img {
-
-  }
-
+  
   p.direction {
     font-size: 1.2rem;
     text-align: center;
     font-family: inline block;
     color: orchid;
+    padding-top: 1rem;
   }
   h5 {
     color: lightgray;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-  ul {
-    text-align: center;
-
-
-  }
+  
+  
 #portfolio .portfolio-item {
-  max-width: 30rem;
+  max-width: 40rem;
   margin-left: auto;
   margin-right: auto;
-  color: orchid;
+  color: inherit;
   }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
@@ -11095,10 +11135,10 @@ header.masthead.masthead-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  display: flex;
+  display: ;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 25%;
+  height: 25%;
   background: rgba(255, 200, 0, 0.9);
   align-items: center;
   justify-content: center;
@@ -11106,8 +11146,8 @@ header.masthead.masthead-subheading {
   transition: opacity ease-in-out 0.25s;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  font-size: 1.25rem;
-  color: deepskyblue;
+  font-size: 5rem;
+  color: lightgray;
 }
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 1;
@@ -11155,6 +11195,7 @@ header.masthead.masthead-subheading {
 .portfolio-modal .modal-content img {
   margin-bottom: 2rem;
 }
+
 .portfolio-modal .close-modal {
   position: absolute;
   top: 1.5rem;
@@ -11164,6 +11205,7 @@ header.masthead.masthead-subheading {
   cursor: pointer;
   background-color: transparent;
 }
+
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
