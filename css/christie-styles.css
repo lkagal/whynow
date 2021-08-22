@@ -49,13 +49,14 @@
   }
 
 body {
-  margin: 0;
+  margin: 2rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 700;
+  text-align: center;
   line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
+  color: orchid;
+  background-color: rebeccapurple;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -281,8 +282,8 @@ table {
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #6c757d;
-  text-align: left;
+  color: orchid;
+  text-align: center;
 }
 
 th {
@@ -367,7 +368,7 @@ textarea {
 }
 
 fieldset {
-  min-width: 0;
+  min-width: 0rem;
   padding: 0;
   margin: 0;
   border: 0;
@@ -2963,13 +2964,13 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: lightgray;
+  border-color: lightgray;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #d9aa00;
-  border-color: #cca000;
+  background-color: whitesmoke;
+  border-color: white;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
@@ -5247,6 +5248,7 @@ textarea.form-control-lg {
   overflow-x: hidden;
   overflow-y: auto;
   outline: 0;
+  color: black;
 }
 
 .modal-dialog {
@@ -10981,7 +10983,7 @@ header.masthead {
 header.masthead .masthead-subheading {
   font-size: 2.25rem;
   font-weight: 600;
-  color: purple;
+  color: rebeccapurple;
   line-height: 1.5rem;
   margin-bottom: 20px;
   font-family:"Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10998,47 +11000,134 @@ header.masthead .masthead-heading {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 12rem;
-    padding-bottom: 18rem;
+    padding-top: 10rem;
+    padding-bottom: 15rem;
   }
 header.masthead.masthead-subheading {
-  font-size: 3.0;
+  font-size: 3.0rem;
   font-weight: 800;
   line-height: 2.5rem;
   margin-bottom: 3rem;
   }
+  header.p {
+    font-size:1.5rem;
+    font-weight: 600;
+    font-family:"Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font: italic;
+    line-height: 2.0rem;
+    margin-top: 1rem;
+    color: lightgray; 
+  }
+  header.a {
+    font-size:1.5rem;
+    font-weight: 600;
+    font-family:"Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font: italic;
+    line-height: 2.0rem;
+    margin-top: 1rem;
+    color: lightgray; 
+
+  }
+  header.t {
+    font-size:1.5rem;
+    font-weight: 600;
+    font-family:"Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font: italic;
+    line-height: 2.0rem;
+    margin-top: 1rem;
+    color: lightgray; 
+  }
+  header.h {
+    font-size:1.5rem;
+    font-weight: 600;
+    font-family:"Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font: italic;
+    line-height: 2.0rem;
+    margin-top: 1rem;
+    color: lightgray; 
+  }
+  header.s {
+    font-size:1.5rem;
+    font-weight: 600;
+    font-family:"Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font: italic;
+    line-height: 2.0rem;
+    margin-top: 1rem; 
+    color: lightgray;
+  }
   header.mission {
-    font-size: 2.25rem;
+    font-size: 3.5rem;
     font-weight: 600;
     text-align: center;
     font-style: san-serif; 
-    line-height: 3.5rem; 
-    color: purple;
+    line-height: 4.0rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem; 
+    color: black;
   }
   p.statement {
     font-size: 1.2rem;
     text-align: center;
     font-family: sans-serif;
   }
+
+  }
   h2 {
     font-size: 8.0rem;
     font-family: "Bradley Hand ITC", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     color: olive;
-    text-align: ;
+    text-align: center;
     text-transform: uppercase;
+    padding-bottom: rem;
   }
+  p.definition {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: inline block;
+    color: lightgray;
+    padding-bottom: 8rem;
+  }
+  
   h4 {
     font-size: 5.0;
     font-family: sans-serif;
     text-align: center;
-    color: purple;
+    color: black;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
   }
-
+  p.struggles {
+    font-size: 1.2rem;
+    font-family: inline block;
+    color: orchid;
+  }
+  li {
+    font-size: 1.2; 
+    font-family: san;
+    font-style: ;
+    color: black;
+    text-align: left;
+  }
+  
+  p.direction {
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: inline block;
+    color: orchid;
+    padding-top: 1rem;
+  }
+  h5 {
+    color: lightgray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  
 #portfolio .portfolio-item {
-  max-width: 30rem;
+  max-width: 40rem;
   margin-left: auto;
   margin-right: auto;
-  color: orchid;
+  color: inherit;
   }
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
@@ -11046,10 +11135,10 @@ header.masthead.masthead-subheading {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-  display: flex;
+  display: ;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 25%;
+  height: 25%;
   background: rgba(255, 200, 0, 0.9);
   align-items: center;
   justify-content: center;
@@ -11057,8 +11146,8 @@ header.masthead.masthead-subheading {
   transition: opacity ease-in-out 0.25s;
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-  font-size: 1.25rem;
-  color: deepskyblue;
+  font-size: 5rem;
+  color: lightgray;
 }
 #portfolio .portfolio-item .portfolio-link:hover .portfolio-hover {
   opacity: 1;
@@ -11106,6 +11195,7 @@ header.masthead.masthead-subheading {
 .portfolio-modal .modal-content img {
   margin-bottom: 2rem;
 }
+
 .portfolio-modal .close-modal {
   position: absolute;
   top: 1.5rem;
@@ -11115,6 +11205,7 @@ header.masthead.masthead-subheading {
   cursor: pointer;
   background-color: transparent;
 }
+
 .portfolio-modal .close-modal:hover {
   opacity: 0.3;
 }
