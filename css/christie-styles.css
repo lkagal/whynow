@@ -11078,7 +11078,6 @@ header.masthead.masthead-subheading {
     color: olive;
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: rem;
   }
   p.definition {
     font-size: 1.2rem;
@@ -11102,7 +11101,7 @@ header.masthead.masthead-subheading {
     color: orchid;
   }
   li {
-    font-size: 1.2; 
+    font-size: 1.2rem; 
     font-family: san;
     font-style: ;
     color: black;
@@ -11120,6 +11119,10 @@ header.masthead.masthead-subheading {
     color: lightgray;
     padding-top: 1rem;
     padding-bottom: 1rem;
+  }
+  h3 {
+    font-size:1.5rem ;
+    color: lightgray;
   }
   
   
