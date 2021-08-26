@@ -11120,11 +11120,15 @@ header.masthead.masthead-subheading {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-  h3 {
-    font-size:1.5rem ;
-    color: lightgray;
-  }
-  
+
+  h3.tools {
+  color: purple;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-family: san;
+  padding-bottom: 2rem;
+}
+ 
   
 #portfolio .portfolio-item {
   max-width: 40rem;
@@ -11164,7 +11168,7 @@ header.masthead.masthead-subheading {
   font-size: 1.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  margin-bottom: 0;
+  margin-bottom: 2rem;
 }
 #portfolio .portfolio-item .portfolio-caption .portfolio-caption-subheading {
   font-style: italic;
@@ -11174,6 +11178,7 @@ header.masthead.masthead-subheading {
 .portfolio-modal .modal-dialog {
   margin: 1rem;
   max-width: 100vw;
+  
 }
 .portfolio-modal .modal-content {
   padding-top: 6rem;
@@ -11398,8 +11403,13 @@ header.masthead.masthead-subheading {
   height: 2.75rem;
 }
 
+h3.contact {
+  color: olive;
+  padding-top: 5rem;
+}
+
 section#contact {
-  background-color: #212529;
+  background-color: lightgray;
   background-image: url("freedom.jfif");
   background-repeat: no-repeat;
   background-position: center;
