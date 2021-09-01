@@ -10868,7 +10868,7 @@ p {
   padding: 6rem 0;
 }
 .page-section h2.section-heading, .page-section .section-heading.h2 {
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 3rem;
@@ -11057,19 +11057,19 @@ header.masthead.masthead-subheading {
     color: lightgray;
   }
   header.mission {
-    font-size: 3.5rem;
+    font-size: 5rem;
     font-weight: 600;
     text-align: center;
-    font-style: san-serif; 
+    font-family: inline block;
     line-height: 4.0rem;
     padding-top: 2rem;
     padding-bottom: 2rem; 
     color: black;
   }
   p.statement {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-align: center;
-    font-family: sans-serif;
+    font-family: inline block;
   }
 
   }
@@ -11089,7 +11089,7 @@ header.masthead.masthead-subheading {
   }
   
   h4 {
-    font-size: 5.0;
+    font-size: 2rem;
     font-family: sans-serif;
     text-align: center;
     color: black;
@@ -11134,15 +11134,13 @@ h2.section-heading {
 }
 h2.section-heading1 {
   font-size: 4rem;
-  color: black;
+  color: #448947;
 }
 p.journey {
   text-align: left;
-  color: #448947;
 }
 p.journey2 {
   text-align: left;
-  color: #448947;
 }
  
   
