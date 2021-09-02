@@ -10903,6 +10903,7 @@ p {
   border-radius: 100%;
 }
 
+}
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -11107,6 +11108,10 @@ header.masthead.masthead-subheading {
     font-style: ;
     color: black;
     text-align: left;
+  }
+  li.heading {
+  font-style:bold;
+  font text-decoration-line: underline;
   }
   
   p.direction {
